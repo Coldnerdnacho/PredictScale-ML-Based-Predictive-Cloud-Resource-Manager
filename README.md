@@ -27,5 +27,4 @@ If `python` is not recognized on Windows, try `py`.
 
 The CloudWatch integration is read-only. It does not create, start, stop, resize, or autoscale AWS resources.
 
-## Limitations
-The main ML workload is synthetic. CloudWatch CPU metrics are displayed separately and are not used to train the current model. Latency, cost and energy are simulated proxies, not live AWS measurements. The prototype does not perform real autoscaling.
+
